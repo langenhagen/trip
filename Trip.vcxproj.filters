@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Fadeable.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\stdafx.cpp" />
+    <ClCompile Include="src\managers\TransformerManager.cpp">
+      <Filter>managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\transformers\Transformer.cpp">
+      <Filter>transformers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\functions\Function.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Math.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\KeyboardListener.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\managers\TripVarManager.cpp">
+      <Filter>managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\managers\FunctionManager.cpp">
+      <Filter>managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Logger.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Registrator.cpp" />
+    <ClCompile Include="src\input\ConsoleInterpreter.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\ConsoleInputGrabber.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\managers\ClusterManager.cpp">
+      <Filter>managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clusters\Cluster.cpp">
+      <Filter>cluster</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\ConsoleController.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine.cpp" />
+    <ClCompile Include="src\Context.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Defines.h" />
+    <ClInclude Include="src\Fadeable.hpp" />
+    <ClInclude Include="src\stdafx.h" />
+    <ClInclude Include="src\managers\TransformerManager.hpp">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\transformers\Transformer.hpp">
+      <Filter>transformers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\functions\Function.hpp">
+      <Filter>functions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\Math.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\Util.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\KeyboardListener.hpp">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\Action.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\managers\TripVarManager.hpp">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\managers\FunctionManager.hpp">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\Logger.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\functions\Functions1.hpp">
+      <Filter>functions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Registrator.hpp" />
+    <ClInclude Include="src\Enableable.hpp" />
+    <ClInclude Include="src\input\ConsoleInterpreter.hpp">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\ConsoleInputGrabber.hpp">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\managers\ClusterManager.hpp">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\clusters\Cluster.hpp">
+      <Filter>cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\ConsoleController.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine.hpp" />
+    <ClInclude Include="src\clusters\Clusters1.hpp">
+      <Filter>cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="src\transformers\Transformers1.hpp">
+      <Filter>transformers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Context.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="compositorListeners">
+      <UniqueIdentifier>{3c46245b-514b-42a6-b8b7-c2e635d7b6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functions">
+      <UniqueIdentifier>{333b0ca5-36dc-49c5-8636-e30a01b98c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="managers">
+      <UniqueIdentifier>{4bc3903e-ab34-4109-903a-0f8755daefaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="transformers">
+      <UniqueIdentifier>{165b2487-d06c-47ff-9134-3e0a665c38ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{63d6a4e5-c0b1-4dfd-9f77-a47b57e7a04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{d60398fa-e335-4ab2-b55d-74d3dd4e50c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cluster">
+      <UniqueIdentifier>{a9f5ce25-4bc8-47eb-b2a0-22b16ca8b9e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
