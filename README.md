@@ -1,4 +1,4 @@
-![](res/TRiPpng)
+![](res/TRiP.png)
 
 # TRiP
 A proof of concept for a hyperflexible realtime abstract visualization & animation tool.
@@ -15,7 +15,11 @@ Unfortunately, I stopped working on `TRiP` in favor of other projects.
 
 **The project is not maintained anymore.**
 
-## Screen shots
+## Screenshots
+Screenshots taken from real time animations.
+The screenshots depict a morphing and moving object or objects, with animated colors.
+The scene is created in real time using the builtin interpreter language.
+
 ![](res/aquatic-genesis.png)
 ![](res/capture_070_14102012_055038_048.png)
 ![](res/capture_123_14102012_055109_185.png)
