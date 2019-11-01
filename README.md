@@ -18,7 +18,7 @@ Unfortunately, I stopped working on `TRiP` in favor of other projects.
 ## Screenshots
 Screenshots taken from real time animations.
 The screenshots depict a morphing and moving object or objects, with animated colors.
-The scene is created in real time using the builtin interpreter language.
+The scenes were created in real time using the builtin interpreter language.
 
 ![](res/aquatic-genesis.png)
 ![](res/capture_070_14102012_055038_048.png)
